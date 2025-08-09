@@ -22,3 +22,22 @@ This public repository contains a simplified, non-sensitive version of the conce
 
 ## License
 MIT License — safe for public sharing.
+
+
+## Visual Framework
+
+*"Interfaces should adapt to the user — not the other way around."*
+
+```mermaid
+flowchart TD
+    A[User Intent] --> B[Adaptive Context Engine<br/>• Real-time intent detection<br/>• Context-aware input generation]
+    
+    subgraph T[WML NoForm — Public View]
+        direction TB
+        F[Formless Interaction<br/>• No static input fields<br/>• Dynamic session flows]
+        M[Minimal Cognitive Load<br/>• Eliminates unnecessary steps<br/>• Streamlined decision paths]
+    end
+    
+    B --> T
+    T --> O[Output<br/>• Context-relevant response<br/>• Seamless task completion]
+```
