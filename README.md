@@ -19,6 +19,12 @@ This public repository contains a simplified, non-sensitive version of the conce
 ## License
 MIT License — safe for public sharing.
 
+## Documentation
+- [Overview](docs/overview.md)
+- [Use Cases](docs/use-cases.md)
+- [FAQ](docs/faq.md)
+- [Access & NDA Policy](docs/access.md)
+
 
 ## Visual Framework
 
