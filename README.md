@@ -15,10 +15,6 @@ This public repository contains a simplified, non-sensitive version of the conce
 - Streamlined onboarding flows
 - Zero-friction transaction systems
 
-## Diagram
-![WML NoForm Public Diagram](diagram.png)
-
-*(Public-safe schematic — no internal logic or private mappings disclosed)*
 
 ## License
 MIT License — safe for public sharing.
