@@ -1,0 +1,38 @@
+{
+  "format_lock_name": "WML Legal Evidence / Issuer Review Packet Format Lock",
+  "locked_at": "2026-06-14T08:15:00-07:00",
+  "status": "active_default_format_memory_public_template",
+  "purpose": "Reusable WML Legal PDF + outbound email format memory for future dispute/evidence packets. Use this format when Ben says to use the saved WML format, research save, format lock, or the legal-team packet style.",
+  "site": "https://wemakelawlegal.com",
+  "sender_email": "legal@wemakelawlegal.com",
+  "email_format_lock": "wml_email/WML_EMAIL_FORMAT_SYSTEM_PROMPT_LOCK.md",
+  "email_footer_html": "wml_email/WML_EMAIL_FOOTER_LOCK.html",
+  "generic_email_template": "wml_email/WML_SUBMISSION_EMAIL_TEMPLATE.html",
+  "pdf_packet_format_lock": "wml_pdf_packet_format/WML_PACKET_FORMAT_SYSTEM_PROMPT_LOCK.md",
+  "automation_memory": "WML_LOCKED_FORMAT_AUTOMATION_MEMORY.md",
+  "email_ready_pdf_builder": "wml_pdf_packet_format/scripts/make_email_ready_pdf.py",
+  "footer_requirements": [
+    "main-site WML logo image only",
+    "no extra slogan or identity text under the logo",
+    "website link must be clickable: https://wemakelawlegal.com",
+    "email link must be clickable: mailto:legal@wemakelawlegal.com",
+    "no defensive attorney-client disclaimer unless Ben explicitly requests it",
+    "no internal record-use/outside-counsel/personal-archive footer language unless Ben explicitly requests it",
+    "never send before Ben visually verifies recipient, subject, body, footer/logo, and attachment"
+  ],
+  "logo_asset": "wml_email/wml-main-site-logo.png",
+  "logo_rule": "Use only the main-site WML logo image as the identity mark. Do not place separate WML / WML Legal / WE MAKE LAW LEGAL text beneath it.",
+  "email_html_logo_url": "https://wemakelawlegal.com/assets/wml-source/wml-source-10.png?v=source-mark-20260602",
+  "link_rule": "Website href=https://wemakelawlegal.com; Email href=mailto:legal@wemakelawlegal.com; both visibly underlined.",
+  "pdf_architecture_rule": [
+    "Intro/cover first",
+    "Main packet narrative before source-record index",
+    "Source-record index before raw/source captures",
+    "Raw/source captures before final outro",
+    "Submission Packet Complete appears once and only on the true final page",
+    "No appendix/evidence material after the outro"
+  ],
+  "evidence_integrity_rule": "Do not generate fake evidence screenshots. Use source pixels for visual evidence, or clearly label text as summary/index.",
+  "typography_rule": "Legal-team tone; dense but readable; keep same-topic headings and paragraphs together; use deliberate paragraph spacing; avoid hollow pages and avoid splitting identical section concepts into separate pages.",
+  "public_repo_boundary": "This public repo stores reusable format logic only. Do not commit private case PDFs, raw email captures, card data, transaction records, or recipient-specific details here unless Ben explicitly chooses public disclosure."
+}

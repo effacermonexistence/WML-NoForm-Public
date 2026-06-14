@@ -36,6 +36,7 @@ This repository contains a simplified, non-sensitive version for demonstration p
 MIT License — safe for public sharing.
 
 ## Documentation
+- [WML Legal Locked Evidence Packet Format](wml-format-lock/README.md)
 - [Overview](docs/overview.md)
 - [Use Cases](docs/use-cases.md)
 - [FAQ](docs/faq.md)
